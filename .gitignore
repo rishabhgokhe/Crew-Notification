@@ -1,0 +1,84 @@
+# React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.* 
+*.env.local
+package-lock.json
+yarn.lock
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Watchman
+.watchmanconfig
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/.idea/
+android/.cxx/
+*.iml
+*.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+ios/.xcworkspace/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcodeproj/*.xcuserdata/
+ios/*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# CocoaPods
+ios/Pods/
+*.xcworkspace
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcuserdata/
+*.xcuserstate
+
+# Metro Bundler cache
+.expo/
+.expo-shared/
+metro-cache/
+tmp/
+cache/
+
+# Build artifacts
+dist/
+build/
+
+# Testing
+coverage/
+jest-coverage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Firebase
+firebase-debug.log
+
+# Misc
+*.log
+*.tmp
+*.swp
+*.swo
